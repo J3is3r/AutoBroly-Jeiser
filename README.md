@@ -58,47 +58,17 @@ if game.PlaceId == 3565304751 then
 					CollideBounce = false
 					wait(1)
 					CollideBounce = true
-					wait(1)
-					CollideBounce = false
-					CollideBounce2 = false
-				end
-			end
-		end
+					wait(1)SAQ1W2
 	end)
 	wait(45)
 	game:GetService("TeleportService"):Teleport(536102540)
-elseif game.PlaceId == 2050207304 then
-	wait(1)
-	local B = Live:WaitForChild("Broly BR")
-	if game.Players.NumPlayers > 1 then game:GetService("TeleportService"):Teleport(3565304751) end	
-	if Char.Race.Value == "Android" then game.Players.LocalPlayer.Backpack.ServerTraits.Transform:FireServer("g") 
-	else
-		game.Players.LocalPlayer.Backpack.ServerTraits.Input:FireServer({[1] = "x"},CFrame.new(0,0,0),InputObject)
-		wait(4)
-		game.Players.LocalPlayer.Backpack.ServerTraits.Transform:FireServer("h")
-		wait(2)
-		game.Players.LocalPlayer.Backpack.ServerTraits.Input:FireServer({[1] = "xoff"},CFrame.new(0,0,0),InputObject)		
-	end
-	Twn(Char.HumanoidRootPart,B.HumanoidRootPart.CFrame,1)
-	Char.HumanoidRootPart.Anchored = false
-	game:GetService("RunService").RenderStepped:connect(function()
-		Char.Humanoid:ChangeState(11)
-		game.Workspace.CurrentCamera.CFrame = CFrame.new(Char.HumanoidRootPart.Position,B.HumanoidRootPart.Position) * CFrame.new(0,2,10)
-		if Char:FindFirstChild("Attacking") then Char.Attacking:Destroy() end
-		if Char:FindFirstChild("Action") then Char.Action:Destroy() end
-		if Char:FindFirstChild("Slow") then Char.Slow:Destroy() end
-		if Char:FindFirstChild("Using") then Char.Using:Destroy() end
-		if Char:FindFirstChild("MoveStart") then Char.MoveStart:Destroy() end
-		if Char.Humanoid.Health < 1.5 then game:GetService("TeleportService"):Teleport(3565304751) end
-		game.Players.LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer("Reds")
-		if Char.Humanoid.Health < 50 then game.Players.LocalPlayer.Backpack.ServerTraits.Transform:FireServer("h") end
-		Char.HumanoidRootPart.CFrame = B.HumanoidRootPart.CFrame + B.HumanoidRootPart.CFrame.lookVector * -6
+4	wait(1)Yx"},CFrame.new(0,0,0),InputObject)5:FireServer("h") endT4Zxddddddddddddddddddddddddddd -6
 	end)
-	wait(1)
+	wait(1)4Y
 	repeat game:GetService("RunService").RenderStepped:Wait()
 		if Char.Ki.Value > Char.Ki.MaxValue/20 then 
 			for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
-				if v.Name == Move1 or v.Name == Move2 or v.Name == Move3 or v.Name == Move4 or v.Name == Move5 or v.Name == Move6 or v.Name == Move7 or v.Name == Move8 or v.Name == Move9 then
+				if v.Name == Move1 or v.Name == Move2 or v.Name == Move3 or v.Name == Move4 or v.NaY4e == Move5 or v.Name == Move6 or v.Name == Move7 or v.Name == Move8 or v.Name == Move9 then
 					v.Parent = game:GetService("Workspace").Live[game.Players.LocalPlayer.Name]
 					wait()
 					v:Activate() 
