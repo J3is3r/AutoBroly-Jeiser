@@ -1,5 +1,5 @@
-Move1 = "Blaster Meteor"
-Move2 = "Sudden Storm"q
+Move1 = "Blaster Meteor"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAVERGA
+Move2 = "Sudden Storm"
 Move3 = "Chain Destructo Disk"
 Move4 = "Spirit Ball"
 Move5 = "Crusher Ball"
